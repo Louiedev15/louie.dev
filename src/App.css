@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  /* Palette from image */
+  --clr-green: #a6df87;   /* light green */
+  --clr-teal: #2e8891;    /* teal */
+  --clr-orange: #f4a30a;  /* orange */
+  --clr-red: #e10606;     /* red */
+  --clr-foreground: #2c292b; /* dark gray */
+}
+
+/* Base foreground/background */
+html, body, #root {
+  background-color: var(--clr-foreground);
+  color: var(--clr-teal);
+  min-height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Smooth scrolling for in-page navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Helpful utilities to use with Tailwind */
+.text-green-var { color: var(--clr-green); }
+.text-teal-var { color: var(--clr-teal); }
+.text-orange-var { color: var(--clr-orange); }
+.text-red-var { color: var(--clr-red); }
+.bg-green-var { background-color: var(--clr-green); }
+.bg-teal-var { background-color: var(--clr-teal); }
+.bg-orange-var { background-color: var(--clr-orange); }
+.bg-red-var { background-color: var(--clr-red); }
+.border-green-var { border-color: var(--clr-green); }
+.border-teal-var { border-color: var(--clr-teal); }
+.border-orange-var { border-color: var(--clr-orange); }
+.border-red-var { border-color: var(--clr-red); }
+.bg-foreground-var { background-color: var(--clr-foreground); }
+.border-foreground-var { border-color: color-mix(in oklab, var(--clr-foreground), white 20%); }
