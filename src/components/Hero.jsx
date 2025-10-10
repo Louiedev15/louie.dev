@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import heroPic from '../assets/hero-pic.png'
-import resumePdf from '../assets/resume_.pdf'
+import resumePdf from '../assets/Galamay_Eugenio.pdf'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -48,14 +48,14 @@ const Hero = () => {
           className="text-gray-400 mt-4"
           variants={itemVariants}
         >
-          He crafts responsive websites where technologies meet creativity
+          I love crafting responsive websites where technologies meet creativity
         </motion.p>
         <motion.div 
           className="flex items-center gap-3 mt-6"
           variants={itemVariants}
         >
           <a href="#contacts" className="inline-block bg-orange-var hover:brightness-110 text-white px-6 py-2 rounded-md font-semibold transition-all">
-            Contact me !!
+            Contact me
           </a>
           <a href={resumePdf} download className="inline-block border border-gray-600 hover:border-gray-500 text-gray-100 px-6 py-2 rounded-md font-semibold transition-all">
             Download CV
