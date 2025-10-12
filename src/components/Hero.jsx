@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import heroPic from '../assets/hero-pic.png'
-import resumePdf from '../assets/Galamay_Eugenio.pdf'
+import resumePdf from '../assets/Galamay_Eugenio_III.pdf'
 
 const containerVariants = {
   hidden: { opacity: 0 },
