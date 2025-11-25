@@ -10,7 +10,7 @@ import trabahanapImg from '../assets/trabahanap.png'
 
 const completeApps = [
   {
-    title: 'Trabahanap Website',
+    title: 'Trabahanap Website (Prototype Only)',
     desc: 'A Trabahanap Website for the Trabahanap Application',
     tech: 'ReactJS TailwindCSS Framer Motion Vite',
     img: trabahanapImg,
