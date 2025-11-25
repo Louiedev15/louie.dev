@@ -7,7 +7,7 @@ import reactLogo from '../assets/react.svg'
 import blogImg from '../assets/BLOG.png'
 import oliImg from '../assets/OLI.png'
 import trabahanapImg from '../assets/trabahanap.png'
-import voltforgeImg from '../assets/voltforge.png'
+import voltforgeImg from '../assets/VoltForge.png'
 const completeApps = [
   {
     title: 'Trabahanap Website (Prototype Only)',
