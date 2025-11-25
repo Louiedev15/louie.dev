@@ -7,7 +7,7 @@ import reactLogo from '../assets/react.svg'
 import blogImg from '../assets/BLOG.png'
 import oliImg from '../assets/OLI.png'
 import trabahanapImg from '../assets/trabahanap.png'
-
+import voltforgeImg from '../assets/voltforge.png'
 const completeApps = [
   {
     title: 'Trabahanap Website (Prototype Only)',
@@ -29,6 +29,13 @@ const completeApps = [
     tech: 'HTML CSS JS',
     img: blogImg,
     cta: { label: 'Live ↔', href: 'https://tres-cyber.github.io/BlogSite/#main' },
+  },
+  {
+    title: 'VoltForge Website',
+    desc: 'A Protoype Website for a Mock Company',
+    tech: 'HTML CSS JS',
+    img: voltforgeImg,
+    cta: { label: 'Live ↔', href: 'https://louiedev15.github.io/voltforge-website' },
   },
 ]
 
