@@ -45,7 +45,6 @@ const smallProjects = [
   { title: 'Saraap', desc: 'A delivery app', tech: 'React Native Expo Router Firebase', icon: '📦', cta: { label: 'Github ➔', href: 'https://github.com/Tres-cyber/saraap' } },
   { title: 'Trabahanap Mobile App', desc: 'A Mobile Application fo Job-Matching', tech: 'React Native Expo Router NodeJS MongoDB', icon: '📦', cta: { label: 'Github ➔', href: 'https://github.com/Tres-cyber/TrabaHanap' } },
   { title: 'Facemask Detector', desc: 'A real-time mask detection system built with OpenCV', tech: 'Python OpenCV', icon: '📦', cta: { label: 'Github ➔', href: 'https://github.com/Tres-cyber/facemask-detector' } },
-  { title: 'Trabahanap Mobile App', desc: 'A Trabahanap Mobile Application', tech: 'ReactJS MongoDB Express NodeJS', icon: '📦', cta: { label: 'Github ➔', href: 'https://github.com/Tres-cyber/TrabaHanap' } },
 ]
 
 const containerVariants = {
